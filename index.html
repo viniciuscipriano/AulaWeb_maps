@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="mapas.js"></script>
+    <script src="javinha.js"></script>
     <title>Mapas Estados</title>
 </head>
 <body>
@@ -17,42 +17,43 @@
         <div>
             <span class="emoji" style='font-size: 20px;'  >&#128073;</span>
 
-            <select name="mapas" id="mapas">
+            <select name="mapas" id="select_map" onchange="add_map()">
                 <option value="null"></option>
-                <option value="paraiba">Paraíba</option>
-                <option value="pernambuco">Pernambuco</option>
-                <option value="saoPaulo">São Paulo</option>
-                <option value="bahia">Bahia</option>
-                <option value="rioDeJaneiro">Rio de Janeiro</option>
-                <option value="acre">Acre</option>
-                <option value="alagoas">Alagoas</option>
-                <option value="amapa">Amapá</option>
-                <option value="amazonas">Amazonas</option>
-                <option value="parana">Paraná</option>
-                <option value="ceara">Ceará</option>
-                <option value="espíritoSanto">Espírito Santo</option>
-                <option value="goias">Goiás</option>
-                <option value="maranhao">Maranhão</option>
-                <option value="matoGrosso">Mato Grosso</option>
-                <option value="matoGrossoDoSul">Mato Grosso do Sul</option>
-                <option value="minasGerais">Minas Gerais</option>
-                <option value="para">Pará</option>
-                <option value="piaui">Piauí</option>
-                <option value="rioGrandeDoNorte">Rio Grande do Norte</option>
-                <option value="rioGrandeDoSul">Rio Grande do Sul</option>
-                <option value="rondonia">Rondônia</option>
-                <option value="roraima">Roraima</option>
-                <option value="santaCatarina">Santa Catarina</option>
-                <option value="sergipe">Sergipe</option>
-                <option value="tocantins">Tocantins</option>
-                <option value="distritoFederal">Distrito Federal</option>
+                <option value="pb">Paraíba</option>
+                <option value="pe">Pernambuco</option>
+                <option value="sp">São Paulo</option>
+                <option value="ba">Bahia</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="ac">Acre</option>
+                <option value="al">Alagoas</option>
+                <option value="ap">Amapá</option>
+                <option value="am">Amazonas</option>
+                <option value="pr">Paraná</option>
+                <option value="ce">Ceará</option>
+                <option value="es">Espírito Santo</option>
+                <option value="go">Goiás</option>
+                <option value="ma">Maranhão</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ms">Mato Grosso do Sul</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pa">Pará</option>
+                <option value="pi">Piauí</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="ro">Rondônia</option>
+                <option value="rr">Roraima</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="se">Sergipe</option>
+                <option value="to">Tocantins</option>
+                <option value="df">Distrito Federal</option>
             </select>
         </div>
         <details>
             <summary>Enviar</summary>
             <p style="font-size: 50px;">Idiota&#128552;</p>
-          </details>
+        </details>
     </div>
-    <div class="imgMapa"></div>
+
+    <img src="" id="imgMapa">
 </body>
 </html>

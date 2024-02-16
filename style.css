@@ -23,7 +23,7 @@
     padding: 1.5vw 2vw;
   }
 
-  mapas {
+  /* mapas {
     width: 35px;
     outline: none;
     border: 1px solid white;
@@ -34,7 +34,7 @@
     appearance: none;
     background: #4f8eed url("caret-down.png") no-repeat 98% 50%;
     background-size: 3vw;
-  }
+  } */
 
   option {
     background: #faf8f8;
