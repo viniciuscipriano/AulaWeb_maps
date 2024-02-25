@@ -23,20 +23,11 @@
     padding: 1.5vw 2vw;
   }
 
-  /* mapas {
-    width: 35px;
-    outline: none;
-    border: 1px solid white;
-    padding: 1.5vw 2vw;
-    font-size: 3vw;
-    color: #fff;
-    cursor: pointer;
-    appearance: none;
-    background: #4f8eed url("caret-down.png") no-repeat 98% 50%;
-    background-size: 3vw;
-  } */
-
   option {
     background: #faf8f8;
     font-size: 1vw;
+  }
+
+  img {
+    margin-left: 500px;
   }
