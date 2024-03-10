@@ -21,5 +21,3 @@ O projeto consiste em três arquivos:
 - Certifique-se de ter os mapas dos estados em formato GIF na pasta "Mapass".
 - Este é um projeto básico que pode ser expandido para incluir mais recursos, como interatividade com os mapas selecionados.
 - Os estilos CSS e o comportamento JavaScript podem ser personalizados conforme necessário para atender às preferências de design e funcionalidade.
-
-Este README fornece uma visão geral do projeto e como ele pode ser usado para exibir mapas de estados em uma página da web.
